@@ -27,6 +27,8 @@ public class SettingsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // TODO: SECOND QUESTION: on starting xml => activity_settings AND then via android:name="android.example.com.visualizerpreferences.SettingsFragment"
+        // TODO: THIRD QUESTION: Starting another JAVA class via XML ??
         setContentView(R.layout.activity_settings);
         ActionBar actionBar = this.getSupportActionBar();
 

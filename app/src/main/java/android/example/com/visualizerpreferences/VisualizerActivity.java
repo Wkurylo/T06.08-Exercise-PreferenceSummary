@@ -104,6 +104,7 @@ public class VisualizerActivity extends AppCompatActivity implements SharedPrefe
         return true;
     }
 
+    // TODO: FIRST QUESTION: on Option selected -> going to SettingsActivity.class
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
